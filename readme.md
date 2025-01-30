@@ -1,4 +1,4 @@
-# Flask Chatbot with Ollama Integration
+# Amrita Vishwa Vidyapeetham Chatbot with Ollama Integration
 
 This project is a simple Flask application that integrates with Ollama's AI model to provide chatbot-like functionality. The chatbot can interact with users by processing their messages and returning appropriate responses.
 
