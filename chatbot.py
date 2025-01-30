@@ -15,7 +15,7 @@ def chat_with_model(user_input):
     
     response = ""
     stream = ollama.chat(
-        model="deepseek-r1:8b",
+        model="deepseek-r1:14b",
         messages=context_history,
         stream=True
     )
