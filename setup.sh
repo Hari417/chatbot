@@ -9,4 +9,7 @@ source venv/bin/activate
 # Step 3: Install the required packages from requirements.txt
 pip install -r requirements.txt
 
-echo "Virtual environment setup complete. You can now run the Flask app."
+# Step 4: Pull the required model using Ollama
+ollama pull deepseek-r1:14b
+
+echo "Virtual environment setup complete. Model deepseek-r1:14b pulled. You can now run the Flask app."
